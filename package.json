@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "nodejs"
+  ],
+  "homepage": "https://github.com/susu1601/nodejs#readme",
+  "bugs": {
+    "url": "https://github.com/susu1601/nodejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susu1601/nodejs.git"
+  },
+  "license": "ISC",
+  "author": "linhnt",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
